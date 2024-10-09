@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/01.png",
+        "title": "Project number 1",
+        "bio": "Bio project number 1... Bio project number 1... Bio project number 1... Bio project number 1...Bio project number 1..."
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/02.png",
+        "title": "Project number 2",
+        "bio": "Bio project number 2... Bio project number 2... Bio project number 2... Bio project number 2...Bio project number 2..."
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/03.png",
+        "title": "Project number 3",
+        "bio": "Bio project number 3... Bio project number 3... Bio project number 3... Bio project number 3...Bio project number 3..."
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/04.png",
+        "title": "Project number 4",
+        "bio": "Bio project number 4... Bio project number 4... Bio project number 4... Bio project number 4...Bio project number 4..."
+    }
+]

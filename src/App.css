@@ -1,0 +1,232 @@
+/* Arley's CSS */
+
+body { 
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+a:hover {
+  color: #5a6ca5;
+}
+
+.color-link {
+  color: blue;
+}
+
+#navbar {
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  /*background-color: #F5F5F5;*/
+  box-shadow: 2px 1px 2px #b7b7b75e;
+  background: linear-gradient(90deg, rgba(104,10,128,1) 39%, rgba(255,0,191,1) 100%);
+}
+
+.colorFullWidth {
+  padding: 5%;
+  background-color: #F5F5F5;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+header, p {
+  font-size: 14px;
+}
+
+#me {
+  background: linear-gradient(90deg, rgba(104,10,128,1) 39%, rgba(255,0,191,1) 100%);
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+.bottom-0 {
+  margin-bottom: 0%;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+  filter: grayscale(100%);
+}
+.avatar:hover {
+  filter: grayscale(0%);
+}
+
+featured section {
+  width: 1080px;
+}
+
+.card {
+  width: 49%;
+  background: #F5F5F5;
+  border-radius: 2%;
+  margin-bottom: 2%;
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+  border-radius: 2% 2% 0% 0%;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column !important;
+  padding: 0% 6% 10% 6%;
+}
+
+.card .cardInfo p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+}
+
+.mainMargin {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0% 5% 0%;
+}
+
+.centered {
+  width: 1080px;
+  padding: 16px;
+}
+
+.featured section {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.content-centered {
+  display: flex;
+  justify-content: center;
+}
+
+#contact label {
+  font-size: 14px;
+}
+
+input, textarea, .my-select {
+  padding: 8px 0px;
+  height: 20px;
+  width: 100%;
+  padding-left: 10px;
+  border: aliceblue;
+  border-radius: 8px;
+}
+
+.my-select-styles {
+  height: 40px;
+}
+
+.required {
+  display: flex;
+  justify-content: flex-end;
+  /*margin-top: -27px;*/
+}
+
+.required strong {
+  color: red;
+  font-size: 12px;
+}
+
+.button {
+  padding: 8px 0px;
+  height: auto;
+  font-weight: bold;
+  width: 100%;
+  border: aliceblue;
+  border-radius: 8px;
+  color: #fff;
+  /*background-color: #4158A6;*/
+  background: linear-gradient(90deg, rgba(104,10,128,1) 39%, rgba(255,0,191,1) 100%);
+  cursor: pointer;
+  /*border: solid 2px #4158A6;*/
+  border: solid 2px linear-gradient(90deg, rgba(104,10,128,1) 39%, rgba(255,0,191,1) 100%);
+}
+.button:hover {
+  color: #4158A6;
+  background-color: #fff;
+  /*border: solid 2px #4158A6;*/
+}
+
+textarea[type="textarea"] {
+  height: 100px;
+}
+
+.width {
+  width: 50%;
+}
+
+.input {
+  margin-bottom: 24px;
+}
+
+.footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.footer-h2 {
+  display: flex;
+  font-size: 12px;
+  font-weight: unset;
+}
+
+.footer-h2 strong {
+  display: flex;
+  height: 18px;
+  align-items: center;
+  margin: 0px 4px;
+}
+
+@media only screen and (max-width: 590px) {
+
+  .featured section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  #contact .width {
+    width: 100%;
+  }
+  
+}
+

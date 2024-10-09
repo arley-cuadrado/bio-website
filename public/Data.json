@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/01.png",
+        "title": "Ram Trucks",
+        "bio": "Website project for visualization on all platforms for the RAM brand, one of the most important in the United States."
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/02.png",
+        "title": "Buddy App",
+        "bio": "Buddy is a mobile and web application project that allows pet owners to find their pets once they go missing."
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/03.png",
+        "title": "Pxp Mrcl",
+        "bio": "PXP Marcel is Publicis' internal platform, providing its employees with educational benefit options and fulfilling an informational role."
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://raw.githubusercontent.com/arley-cuadrado/resume-project/refs/heads/main/project-images/04.png",
+        "title": "Gimme! App",
+        "bio": "Mobile application for interactive menus for restaurants and small businesses that integrates grocery listing services and online billing."
+    }
+]
